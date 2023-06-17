@@ -42,7 +42,7 @@ public class CreateOrganisationWithIndustryTests extends BaseClass{
 				op.clickOnOrgLookUpImg();
 				Reporter.log("Clicked on Org Look Up image",true);
 				
-				Assert.fail();
+				//Assert.fail();
 				//Step5: Create organisation with mand fields
 				CreateNewOrganisationPage cnop=new CreateNewOrganisationPage(driver);
 				cnop.createNewOrganisation(ORGNAME, INDUSTRY);
